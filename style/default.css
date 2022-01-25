@@ -1,0 +1,45 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* FLEX */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    }
+
+    /* GRID */
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 100%;  
+  }
+
+  img{
+     max-width: 100%;
+  }
+
+    /* UL/LI */
+    ul{
+        list-style-type: none;
+    }
+     
+    li{
+        text-decoration: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+p{
+    font-size: 20px;
+}
